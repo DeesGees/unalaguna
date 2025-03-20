@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('fonts/Caveat-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'MyFont', sans-serif;
+    padding: 0px;
+    background-image: url("images/boravak.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.box-one {
+    height: 100vh;
+    width: 33.33%;
+    background-color: rgba(255, 255, 255,0.0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: black 2px solid;
+}
+
+.box-one  a{
+    font-size: 64px;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgba(1, 1, 1, 0.5);
+}
+
+
+.box-one:hover {
+    height: 100vh;
+    width: 33.33%;
+    background-color: rgba(25, 38, 20, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: black 2px solid;
+    color: white;
+}
+
+.box-two {
+    height: 100vh;
+    width: 33.33%;
+    background-color: rgba(255, 255, 255, 0.0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: black 2px solid;
+}
+
+.box-two  a{
+    font-size: 64px;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgba(1, 1, 1, 0.5);
+}
+
+.box-two:hover {
+    height: 100vh;
+    width: 33.33%;
+    background-color: rgba(25, 38, 20, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: black 2px solid;
+    color: white;
+}
+
+.box-three {
+    height: 100vh;
+    width: 33.33%;
+    background-color: rgba(255, 255, 255, 0.0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-three  a{
+    font-size: 64px;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgba(1, 1, 1, 0.5);
+}
+
+.box-three:hover {
+    height: 100vh;
+    width: 33.33%;
+    background-color: rgba(25, 38, 20, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: black 2px solid;
+    color: white;
+}
+
+.box-one:hover a, 
+.box-two:hover a, 
+.box-three:hover a {
+    color: rgb(255,215,0);
+}
+

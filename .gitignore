@@ -1,0 +1,22 @@
+# Ignorisanje node_modules foldera (za Node.js projekte)
+node_modules/
+
+# Ignorisanje build i dist foldera (za frontend projekte)
+dist/
+build/
+
+# Ignorisanje osjetljivih podataka
+.env
+*.env
+
+# Ignorisanje fajlova generisanih od sistema
+.DS_Store
+Thumbs.db
+
+# Ignorisanje logova
+logs/
+*.log
+
+# Ignorisanje privremenih fajlova i cache-a
+*.cache
+*.tmp
